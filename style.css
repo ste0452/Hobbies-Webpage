@@ -3,18 +3,10 @@ body {
     /* background-image: url(https://images.pexels.com/photos/3077882/pexels-photo-3077882.jpeg) */
 }
 
-h1 {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-}
-
-h2 {
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-align: center;
-}
-
 .nav {
     background-color: black;
     overflow: hidden;
+    width: 100%;
 }
 
 .nav a {
@@ -25,6 +17,21 @@ h2 {
     text-decoration: none;
     font-size: 17px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav a:hover {
+    background-color:azure;
+    color: black;
+}
+
+.nav a.right-nav {
+    float: right;
+    background-color:red;
+}
+
+.nav a.right-nav:hover {
+    background-color: azure;
+    color: black
 }
 
 .dropdown {
@@ -43,14 +50,14 @@ h2 {
 }
 
 .dropdown .dropbtn:hover {
-    background-color:palegoldenrod;
+    background-color:azure;
     color: black;
 }
 
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color:antiquewhite;
+    background-color:azure;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
@@ -65,13 +72,12 @@ h2 {
     text-align: left;
 }
 
-.dropdown:hover .dropdown-content{
-    display: block;
+.dropdown-content a:hover {
+    background-color:aliceblue;
 }
 
-.nav a:hover {
-    background-color:palegoldenrod;
-    color: black;
+.dropdown:hover .dropdown-content{
+    display: block;
 }
 
 img {
@@ -83,7 +89,7 @@ img {
 }
 
 .header {
-    background-color: #08080A;
+    background-color: whitesmoke;
 }
 
 #one {
